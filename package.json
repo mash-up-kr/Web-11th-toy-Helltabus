@@ -55,6 +55,7 @@
 	},
 	"devDependencies": {
 		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"prettier": "^2.4.1",
 		"sass": "^1.42.1"
 	}
 }
