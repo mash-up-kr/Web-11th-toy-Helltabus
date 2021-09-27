@@ -5,3 +5,5 @@ export { default as ArticleContent } from './ArticleContent';
 export { default as ArticleAuthor } from './ArticleAuthor';
 export { default as ArticleComments } from './ArticleComments';
 export { default as Comment } from './Comment';
+export { default as Profile } from './Profile';
+export { default as Setting } from './Setting';
