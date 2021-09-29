@@ -5,7 +5,12 @@ const realWorldAPI = {
 		return await customAxios.get('articles');
 	},
 	getProfile: async ({ username }: { username: string }) => {
-		return await customAxios.get(`/profiles:${username}`);
+		const res = await customAxios.get(`/profiles/${username}`);
+		return res.data;
+	},
+	getArticle: async ({ slug }: { slug: string }) => {
+		const res = await customAxios.get(`/articles/${slug}`);
+		return res.data;
 	},
 };
 
